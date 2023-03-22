@@ -1,4 +1,4 @@
-# DASHboard Proposal
+# DashSuicides Proposal
 
 Zilong YI, adapted from [here](https://github.com/ZilongYi/suicide_indicator/edit/main/proposal.md)
 
