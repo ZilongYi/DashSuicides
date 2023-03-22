@@ -2,7 +2,7 @@
 
 - [Warning](#warning)
 - [Overview](#overview)
-- [Usage and Deployment Link](#usage-and-deployment-link)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [References](#references)
 - [License](#license)
