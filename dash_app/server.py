@@ -152,6 +152,10 @@ def bar_plot(sex, year):
         data = df.query("year >= @min_year & year <= @max_year & sex == @gender")
     
     bar_plot = px.histogram(data, x='suicides_no', y='generation', title='Suicides Counts with Different Generations')
+    bar_plot.update_layout(
+        xaxis_title='Suicide Count',
+        yaxis_title='Generations'
+    )
     return bar_plot
 
 
@@ -176,7 +180,12 @@ def bubble_plot(sex, year):
                             size="suicides_no",
                             hover_name="year", 
                             log_x=False, 
-                            size_max=40)
+                            size_max=40,
+                            title = 'Population vs Suicides count, along with other information when hovering on bubbles.')
+    bubble_plot.update_layout(
+        xaxis_title='Population',
+        yaxis_title='Suicide Counts'
+    )
     
     return bubble_plot
 
